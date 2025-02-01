@@ -1,4 +1,4 @@
-package v2;
+package v2_v2;
 
 public class Pasajero {
 	private int clase;
@@ -6,15 +6,15 @@ public class Pasajero {
 	private String nombre;
 	private int edad;
 	private String embarque;
-	private String superviviente;
+	private String vivio;
 	
-	public Pasajero(int clase, String apellido, String nombre, int edad, String embarque, String superviviente) {
+	public Pasajero(int clase, String apellido, String nombre, int edad, String embarque, String vivio) {
 		this.clase = clase;
 		this.apellido = apellido;
 		this.nombre = nombre;
 		this.edad = edad;
 		this.embarque = embarque;
-		this.superviviente = superviviente;
+		this.vivio = vivio;
 	}
 
 	public int getClase() {
@@ -37,10 +37,13 @@ public class Pasajero {
 		return embarque;
 	}
 
-	public String getSuperviviente() {
-		return superviviente;
+	public String getVivio() {
+		return vivio;
 	}
-
-
 	
+	
+	
+	
+	
+
 }
