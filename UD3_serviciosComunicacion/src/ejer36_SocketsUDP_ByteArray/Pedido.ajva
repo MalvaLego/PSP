@@ -1,0 +1,44 @@
+package ejer36_SocketsUDP_ByteArray;
+
+import java.io.*;
+
+public class Pedido implements Serializable{
+	private String burger;
+	private String company;
+	private String refresco;
+	
+	public Pedido(String burger, String company, String refresco) {
+		this.burger = burger;
+		this.company = company;
+		this.refresco = refresco;
+	}
+	
+	
+	
+	public String getBurger() {
+		return burger;
+	}
+	public String getCompany() {
+		return company;
+	}
+	public String getRefresco() {
+		return refresco;
+	}
+	public void setBurger(String burger) {
+		this.burger = burger;
+	}
+	public void setCompany(String company) {
+		this.company = company;
+	}
+	public void setRefresco(String refresco) {
+		this.refresco = refresco;
+	}
+	@Override
+	public String toString() {
+		return "Pedido [burger=" + burger + ", company=" + company + ", refresco=" + refresco + "]";
+	}
+	
+	
+	
+	
+}
